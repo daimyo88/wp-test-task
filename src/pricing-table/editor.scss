@@ -1,0 +1,24 @@
+.wp-block-qi-pricing-table {
+
+	&__plan-container {
+		padding-bottom: 20px;
+		margin-bottom: 15px;
+		border-bottom: 1px dashed #000;
+	}
+
+	&__error-message {
+		margin-top: -5px;
+		margin-bottom: 5px;
+		color: #f00;
+		font-size: 12px;
+	}
+
+	&__label {
+		font-size: 11px;
+		font-weight: 500;
+		line-height: 1.4;
+		text-transform: uppercase;
+		margin-bottom: 8px;
+	}
+
+}

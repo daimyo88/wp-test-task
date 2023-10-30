@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "qi/map",
+  "version": "0.1.0",
+  "title": "Map",
+  "category": "qi_cb",
+  "icon": "admin-site-alt",
+  "description": "Map with markers",
+  "attributes": {
+    "mapCenter": {
+      "type": "object",
+      "default": {
+        "lat": 48.62,
+        "lng": 22.29
+      }
+    },
+    "mapZoom": {
+      "type": "number",
+      "default": 13
+    },
+    "mapHeight": {
+      "type": "number",
+      "default": 400
+    },
+    "autoAdjusting": {
+      "type": "boolean",
+      "default": true
+    },
+    "markers": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "example": {},
+  "supports": {
+    "html": false,
+    "multiple": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "spacing": {
+      "padding": true,
+      "margin": true,
+      "blockGap": true
+    }
+  },
+  "textdomain": "test-task",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

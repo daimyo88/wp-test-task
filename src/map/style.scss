@@ -1,0 +1,8 @@
+@import "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+
+.wp-block-qi-map {
+
+	&.leaflet-grab {
+		cursor: default;
+	}
+}

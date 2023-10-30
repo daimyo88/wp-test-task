@@ -1,0 +1,78 @@
+@use "sass:color";
+
+$variant1: #7bdcb5;
+$variant2: #8ed1fc;
+$variant3: #fcb900;
+
+.wp-block-qi-pricing-table {
+
+	&__plan-item {
+		margin-bottom: 25px;
+		padding: 15px 20px;
+		border: 1px solid #000;
+		border-radius: 4px;
+
+		> h3 {
+			margin-top: 0;
+			margin-bottom: 20px;
+			font-size: 26px;
+			text-align: center;
+			font-weight: 500;
+		}
+
+		> p {
+			font-size: 16px;
+		}
+	}
+
+	&__plan-item.variant1 {
+		background: color.adjust($variant1, $lightness: 30%);
+		color: color.adjust($variant1, $lightness: -30%);
+		border: 1px solid color.adjust($variant1, $lightness: -30%);
+	}
+
+	&__plan-item.variant2 {
+		background: color.adjust($variant2, $lightness: 15%);
+		color: color.adjust($variant2, $lightness: -30%);
+		border: color.adjust($variant2, $lightness: -30%);
+	}
+
+	&__plan-item.variant3 {
+		background: color.adjust($variant3, $lightness: 15%);
+		color: color.adjust($variant3, $lightness: -30%);
+		border: color.adjust($variant3, $lightness: -30%);
+	}
+
+	&__plan-link-container {
+		display: flex;
+		justify-content: center;
+	}
+
+	&__plan-link {
+		min-width: 10px;
+		display: inline-block;
+		padding: 8px 16px;
+		font-size: 14px;
+		text-decoration: none !important;
+		border-radius: 4px;
+		border: 1px solid #444;
+
+		&.variant1 {
+			background: $variant1;
+			color: color.adjust($variant1, $lightness: -50%);
+			border: color.adjust($variant1, $lightness: -50%);
+		}
+
+		&.variant2 {
+			background: $variant2;
+			color: color.adjust($variant2, $lightness: -50%);
+			border: color.adjust($variant2, $lightness: -50%);
+		}
+
+		&.variant3 {
+			background: $variant3;
+			color: color.adjust($variant3, $lightness: -30%);
+			border: color.adjust($variant3, $lightness: -30%);
+		}
+	}
+}

@@ -1,0 +1,41 @@
+.wp-block-qi-map {
+
+	.leaflet-grab {
+		cursor: default;
+	}
+
+	&__error-message {
+		margin-top: -5px;
+		margin-bottom: 5px;
+		color: #f00;
+		font-size: 12px;
+	}
+
+	&__marker-control-icon {
+		cursor: pointer;
+	}
+
+	&__marker-list-item {
+		margin-bottom: 10px;
+		border-bottom: 1px dashed #000;
+	}
+
+	&__marker-contols {
+		display: flex;
+		justify-content: center;
+
+		button {
+			margin: 0 5px;
+			cursor: pointer !important;
+		}
+	}
+
+	&__marker-delete-button {
+		color: #f00;
+		border: 1px solid #f00;
+	}
+
+	a {
+		text-decoration: none !important;
+	}
+}

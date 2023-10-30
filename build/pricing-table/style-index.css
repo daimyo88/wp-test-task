@@ -1,0 +1,64 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pricing-table/style.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************/
+.wp-block-qi-pricing-table__plan-item {
+  margin-bottom: 25px;
+  padding: 15px 20px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+.wp-block-qi-pricing-table__plan-item > h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 26px;
+  text-align: center;
+  font-weight: 500;
+}
+.wp-block-qi-pricing-table__plan-item > p {
+  font-size: 16px;
+}
+.wp-block-qi-pricing-table__plan-item.variant1 {
+  background: #f4fcf9;
+  color: #28966a;
+  border: 1px solid #28966a;
+}
+.wp-block-qi-pricing-table__plan-item.variant2 {
+  background: #d9effe;
+  color: #0691eb;
+  border: #0691eb;
+}
+.wp-block-qi-pricing-table__plan-item.variant3 {
+  background: #ffcf4a;
+  color: #634900;
+  border: #634900;
+}
+.wp-block-qi-pricing-table__plan-link-container {
+  display: flex;
+  justify-content: center;
+}
+.wp-block-qi-pricing-table__plan-link {
+  min-width: 10px;
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  text-decoration: none !important;
+  border-radius: 4px;
+  border: 1px solid #444;
+}
+.wp-block-qi-pricing-table__plan-link.variant1 {
+  background: #7bdcb5;
+  color: #124631;
+  border: #124631;
+}
+.wp-block-qi-pricing-table__plan-link.variant2 {
+  background: #8ed1fc;
+  color: #045487;
+  border: #045487;
+}
+.wp-block-qi-pricing-table__plan-link.variant3 {
+  background: #fcb900;
+  color: #634900;
+  border: #634900;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

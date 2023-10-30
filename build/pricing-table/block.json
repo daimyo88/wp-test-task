@@ -1,0 +1,35 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "qi/pricing-table",
+  "version": "0.1.0",
+  "title": "Pricing table",
+  "category": "qi_cb",
+  "icon": "list-view",
+  "description": "Test task",
+  "attributes": {
+    "plans": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "example": {},
+  "supports": {
+    "align": true,
+    "html": false,
+    "color": {
+      "text": true,
+      "background": true,
+      "link": "true"
+    },
+    "spacing": {
+      "padding": true,
+      "margin": true,
+      "blockGap": true
+    }
+  },
+  "textdomain": "test-task",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

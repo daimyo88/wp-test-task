@@ -1,0 +1,23 @@
+{
+	"name": "test-task",
+	"version": "0.1.0",
+	"description": "Test task for Quantenwerft Intnl",
+	"author": "Denys Dmytruk",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^26.15.0"
+	},
+	"dependencies": {
+		"leaflet": "^1.9.4"
+	}
+}

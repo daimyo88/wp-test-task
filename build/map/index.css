@@ -1,0 +1,36 @@
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/map/editor.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************/
+.wp-block-qi-map .leaflet-grab {
+  cursor: default;
+}
+.wp-block-qi-map__error-message {
+  margin-top: -5px;
+  margin-bottom: 5px;
+  color: #f00;
+  font-size: 12px;
+}
+.wp-block-qi-map__marker-control-icon {
+  cursor: pointer;
+}
+.wp-block-qi-map__marker-list-item {
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #000;
+}
+.wp-block-qi-map__marker-contols {
+  display: flex;
+  justify-content: center;
+}
+.wp-block-qi-map__marker-contols button {
+  margin: 0 5px;
+  cursor: pointer !important;
+}
+.wp-block-qi-map__marker-delete-button {
+  color: #f00;
+  border: 1px solid #f00;
+}
+.wp-block-qi-map a {
+  text-decoration: none !important;
+}
+
+/*# sourceMappingURL=index.css.map*/
